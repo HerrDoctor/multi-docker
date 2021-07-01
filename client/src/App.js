@@ -18,7 +18,7 @@ function App() {
           >
             Learn React
           </a>
-          <Link to="/">Home</Link>
+          <Link to="/">Fibonacci Calculator</Link>
           <Link to="/otherpage">Other Page</Link>
           <div>
             <Route exact path="/" component={Fib} />
